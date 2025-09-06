@@ -7,7 +7,7 @@ The detected vehicles and their corresponding license plate information are disp
 
 Key Features:
 
-Real-time detection of cars, trucks, buses, and motorbikes
+Real-time detection of cars
 
 Unique tracking of each vehicle with persistent IDs
 
