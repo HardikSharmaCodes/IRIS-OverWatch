@@ -74,7 +74,7 @@ def detect_plate_text(alpr_model, reader, cropped_car, offset=(0,0)):
         print("ALPR Error:", e)
     return plate_texts, boxes
 
-def main(video_path="4K Road traffic video for object detection and tracking - free download now!.mp4"):
+def main(video_path="Link to the video you want your model to work on"):
     car_model = YOLO("yolov8l.pt")
     alpr_model = YOLO("OverWatch-002D.pt")
     tracker = DeepSort(max_age=30)
@@ -127,3 +127,4 @@ def main(video_path="4K Road traffic video for object detection and tracking - f
 
 if __name__ == "__main__":
     main()
+
